@@ -1,0 +1,47 @@
+{
+  "kind": "metroplat.contract",
+  "id": "formal-hoare-carrier",
+  "precondition": {
+    "id": "customer-admits-formal-carrier-dependency",
+    "description": "The customer admits this exact source package and Lean toolchain as a dependency and supplies every application-specific predicate, transition, and preservation witness under its own authority."
+  },
+  "move": {
+    "id": "elaborate-formal-program-carrier",
+    "description": "Lean elaborates the generic or keratinous application carrier against the separately owned Obsmetrologia dependency.",
+    "domain": "customer-authored-formal-program",
+    "codomain": "elaborated-carrier-or-build-refusal",
+    "partial": false,
+    "deterministic": true,
+    "effects": [
+      "evidence"
+    ]
+  },
+  "postcondition": {
+    "id": "formal-carrier-result-is-bounded",
+    "description": "The result names the exact declaration and package revision elaborated or records a refusal; it never claims runtime observation, empirical coverage, or authority to mutate Obsmetrologia."
+  },
+  "evidencePolicy": {
+    "required": true,
+    "records": [
+      "the exact HoareProgramMeasurement source revision",
+      "the exact Obsmetrologia dependency revision",
+      "the Lean toolchain identifier",
+      "the #print axioms result for every exported theorem used",
+      "the build result or refusal"
+    ]
+  },
+  "boundary": {
+    "customerOwned": [
+      "program semantics",
+      "precondition",
+      "transition",
+      "postcondition",
+      "customer deployment and observations"
+    ],
+    "providerOwned": [
+      "formal application carrier",
+      "package build evidence",
+      "provider refusal"
+    ]
+  }
+}

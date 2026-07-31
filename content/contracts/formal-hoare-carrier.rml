@@ -1,0 +1,10 @@
+#lang rmn/v2
+(map
+  ("type" "FormalHoareCarrierLaw")
+  ("version" 1)
+  ("provider" "urn:ame:hoare-program-measurement")
+  ("precondition" "The customer admits the exact Lean source package and toolchain as dependencies and supplies each application-specific predicate, transition, and preservation witness under its own authority.")
+  ("operation" "Lean elaborates the generic or keratinous application carrier against the separately owned Obsmetrologia dependency.")
+  ("postcondition" "The result names the exact declaration and package revision elaborated or records a refusal; it makes no runtime-observation, empirical-coverage, or Obsmetrologia-mutation claim.")
+  ("refusal" "Refuse an implicit application-to-mathematics mapping, an unproved or overqualified preservation claim, a request to add the carrier to Obsmetrologia, or cross-settlement mutation authority.")
+  ("carrier" "Lean-4.31.0"))

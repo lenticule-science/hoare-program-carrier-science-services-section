@@ -1,0 +1,33 @@
+{
+  "id": "formal-program-measurer",
+  "name": "formal program measurer",
+  "kind": "office",
+  "normative-structure": "What the formal Hoare-program carrier certifies, what a supplied finite relation and provenance-bearing observation packet measure, which Obsmetrologia declarations are imported, and whether a requested result exceeds that evidence are this office's own records.",
+  "deontic-profile": {
+    "maintain-formal-carrier": "duty",
+    "measure-admitted-finite-programs": "duty",
+    "qualify-customer-authored-observations": "duty",
+    "keep-provider-local-evidence-and-books": "duty",
+    "state-evidence-boundary": "duty",
+    "refuse-implicit-mappings": "duty",
+    "release-formal-carrier-revision": "deontic-power",
+    "resist-cross-settlement-write-demands": "deontic-immunity"
+  },
+  "authority-scope": [
+    "HoareProgramMeasurement.lean",
+    "HoareProgramMeasurement/",
+    "content/",
+    "data/",
+    "lib/"
+  ],
+  "jurisdiction": "hoare-program-measurement",
+  "part-of": "obsmetrological-services-section",
+  "reports-to": [],
+  "unrealized": [
+    "direct deployed-program instrumentation",
+    "independent observation-source verification",
+    "ActivityPub transport",
+    "priced public HTTP service boundary"
+  ],
+  "founded": "2026-07-18"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "formal-hoare-carrier",
+  "law": "ni:///sha-256;EFavqDZN-L20fYKf6e32LKZACb3kJuG3pPpD6cYQZc8",
+  "provider": "hoare-program-measurement",
+  "status": "available",
+  "serviceForm": "Lean source package",
+  "purpose": "Provide program-specific precondition, transition, postcondition, preservation, and keratinous least-compatible-state carriers while keeping those declarations outside Obsmetrologia.",
+  "operations": [
+    {
+      "id": "elaborate-program-carrier",
+      "evidence": "lake build succeeds for HoareProgramMeasurement.Program"
+    },
+    {
+      "id": "verify-preservation-witness",
+      "evidence": "HoareProgramMeasurement.Program.preservesPost",
+      "axioms": []
+    },
+    {
+      "id": "derive-keratinous-least-compatible-state",
+      "evidence": "HoareProgramMeasurement.KeratinousProgram.moveLeastCompatible",
+      "axioms": [
+        "Quot.sound"
+      ]
+    }
+  ],
+  "admission": "A customer imports the provider package under Lean 4.31.0 and states its own program precondition, move, postcondition, and preservation witness.",
+  "refusal": [
+    "a request to add or alias the application carrier inside Obsmetrologia",
+    "a request to treat an absent application theorem as a mathematical defect",
+    "a claim of runtime observation or empirical coverage from the formal carrier alone",
+    "a request for cross-settlement mutation"
+  ],
+  "unavailableOperations": [
+    "runtime-observation-ingress",
+    "empirical-program-measurement",
+    "network-service-invocation",
+    "priced-settlement",
+    "axiom-free-keratinous-projection"
+  ]
+}

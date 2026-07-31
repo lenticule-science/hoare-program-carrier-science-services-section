@@ -1,0 +1,28 @@
+{
+  "profile": "org.emsenn.evm.sovereign-enterprise-account.v3",
+  "enterprise": {
+    "nodeId": "hoare-program-measurement",
+    "urn": "urn:ame:hoare-program-measurement",
+    "enterpriseId": "0x98f293326da4bde52328d85df47b86f093280822dc66cf6c12951a10bc23895a"
+  },
+  "chain": {
+    "chainId": 31337,
+    "caip2": "eip155:31337"
+  },
+  "account": {
+    "address": "0xc5fc458c40c5d06beed42374ac5b5825551bd8c1",
+    "caip10": "eip155:31337:0xc5fc458c40c5d06beed42374ac5b5825551bd8c1"
+  },
+  "factory": {
+    "address": "0xb334795bf50e4943d076dfb38d8c1a50f9f5a101",
+    "userSalt": "0x4589ec3210e0f70fb4c46911947ec234cb919d0011159e83c6c7aa146be4cf8a"
+  },
+  "policy": {
+    "signer": "0x0dc99c91da086a1e794f88fa51dda777e13fed01",
+    "custody": "settlement-private"
+  },
+  "deployment": {
+    "transaction": "0xee508f052ed6c9fcbb222f91f652e485b5949b05610ceacb4e95e06415795ed2",
+    "block": 1262
+  }
+}

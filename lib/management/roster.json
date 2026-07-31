@@ -1,0 +1,9 @@
+{
+  "enterprise": "hoare-program-measurement",
+  "offices": [
+    {
+      "id": "formal-program-measurer",
+      "record": "content/offices/formal-program-measurer.json"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+name = "hoare-program-measurement"
+defaultTargets = ["HoareProgramMeasurement"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+pp.unicode.fun = true
+
+[[require]]
+name = "Obsmetrologia"
+path = "../../lib/obsmetrologia"
+
+[[lean_lib]]
+name = "HoareProgramMeasurement"
