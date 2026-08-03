@@ -1,4 +1,0 @@
-<urn:ame:hoare-program-measurement> <urn:emsenn:evm:retired-controller-artifact> <ni:///sha-256;pvJs_9q9cdoghZtPD8QiSmUiyNXeSQ4LY738ZaVkVfs> <urn:ame:hoare-program-measurement:controller-custody-cutover:eip155-31337> .
-<ni:///sha-256;pvJs_9q9cdoghZtPD8QiSmUiyNXeSQ4LY738ZaVkVfs> <urn:emsenn:evm:retired-path> "data/evm/controller-eip155-31337.env" <urn:ame:hoare-program-measurement:controller-custody-cutover:eip155-31337> .
-<urn:ame:hoare-program-measurement> <urn:emsenn:evm:controller-keystore-format> "Ethereum Secret Storage v3" <urn:ame:hoare-program-measurement:controller-custody-cutover:eip155-31337> .
-<urn:ame:hoare-program-measurement> <urn:emsenn:evm:controller-chain> <eip155:31337> <urn:ame:hoare-program-measurement:controller-custody-cutover:eip155-31337> .
