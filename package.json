@@ -16,5 +16,9 @@
     "check": "lake build && lake env lean scripts/AxiomAudit.lean",
     "verify": "npm run check"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenticule-science/hoare-program-carrier.git"
+  }
 }
