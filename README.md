@@ -1,5 +1,12 @@
 # Hoare Program Carrier
 
+<!-- 561-group-standards:badges:start -->
+[![Lenticule Science](https://img.shields.io/badge/561%20Group-Lenticule%20Science-5b4b8a)](https://github.com/lenticule-science)
+[![License: MIT](https://img.shields.io/badge/license-MIT-5b4b8a)](LICENSE)
+[![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/lenticule-science/.github/blob/main/GOVERNANCE.md)
+[![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
+<!-- 561-group-standards:badges:end -->
+
 This is the Lean half of the former `hoare-program-measurement` micro-enterprise, split 2026-07-30 from its sibling application service, [`finite-program-measurement-service`](../finite-program-measurement-service) (zero registry dependents verified before the split).
 
 This is not part of the Obsmetrologia mathematics library. It imports Obsmetrologia across OSS's owned-checkout seam and owns the program-specific carrier and its keratinous application.
