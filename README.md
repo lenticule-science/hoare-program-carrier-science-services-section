@@ -18,3 +18,10 @@ The generic preservation theorem is axiom-free. The current keratinous projectio
 Run `make check` to build the library and its mathematical dependency and print the axiom audit.
 
 This package retains the enterprise's standing identity records (`lib/ownership.json`, `lib/management/roster.json`, `content/offices/formal-program-measurer.json`, `content/evm/accounts/eip155-31337.json`, and their append-only `data/` evidence) inherited unchanged from `hoare-program-measurement`; the application half was carved out fresh and holds no separate identity of its own.
+
+## Code
+
+This repository holds section data only. The executable code that used to live here moved to
+[`red-cup-engineering/hoare-program-carrier`](https://github.com/red-cup-engineering/hoare-program-carrier) (received 2026-10-24 from
+`lenticule-science/hoare-program-carrier@2ec8c32d7677`). That engine reads this data from `SECTION_ROOT` (default: its current working directory),
+so point `SECTION_ROOT` at a checkout of this repository.
