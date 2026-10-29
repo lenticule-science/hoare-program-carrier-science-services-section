@@ -1,5 +1,11 @@
 import HoareProgramMeasurement
 
 #print axioms HoareProgramMeasurement.Program.preservesPost
+#print axioms HoareProgramMeasurement.ServiceArrow.identity_then
+#print axioms HoareProgramMeasurement.ServiceArrow.then_identity
+#print axioms HoareProgramMeasurement.ServiceArrow.associative
+#print axioms HoareProgramMeasurement.Program.sequential_as_service_arrows
+#print axioms HoareProgramMeasurement.Huidu.revised_setting_preserves_promise
+#print axioms HoareProgramMeasurement.shared_budget_local_feasible_global_infeasible
 #print axioms HoareProgramMeasurement.KeratinousProgram.toProgramPreserves
 #print axioms HoareProgramMeasurement.KeratinousProgram.moveLeastCompatible
