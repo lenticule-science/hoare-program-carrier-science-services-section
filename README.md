@@ -1,4 +1,4 @@
-# Hoare Program Carrier
+# @lenticule-science/hoare-program-carrier-science-services-section
 
 <!-- 561-group-standards:badges:start -->
 [![Lenticule Science](https://img.shields.io/badge/561%20Group-Lenticule%20Science-5b4b8a)](https://github.com/lenticule-science)
@@ -6,6 +6,8 @@
 [![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/lenticule-science/.github/blob/main/GOVERNANCE.md)
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
+
+hoare-program-carrier-science-services-section is a services section of the 561 Group.
 
 This is the Lean half of the former `hoare-program-measurement` micro-enterprise, split 2026-07-30 from its sibling application service, [`finite-program-measurement-service`](../finite-program-measurement-service) (zero registry dependents verified before the split).
 
